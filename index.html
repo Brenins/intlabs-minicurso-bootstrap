@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<header>
+    <!-- Navbar Comeco -->
+    <nav class="navbar navbar-expand-lg navbarAjuste shadow">
+        <div class="container-fluid ">
+            <div class="navbar-brand">
+                <a class="mw-100 mh-100" href="#">
+                    <img src="./img/dodo.png" alt="dodo" width="120px" height="10%">
+                </a>
+            </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Dodo Airlines</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contratar Serviços</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Cotações</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Mapa de Cobertura</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Sobre-Nós</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Trabalhe Conosco</a>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <!-- Navbar Fim -->
+</header>
+
+<body>
+    <div class="banner d-flex justify-content-center align-items-center ">
+        <div class="text-light banner2 d-flex justify-content-center align-items-center flex-column text-center">
+            <h1>Dodo Airlines: a melhor maneira de voar!</h1>
+            <a class="btn btn-primary rounded-pill font-weight-normal shadow" href="https://dodoairlines.com/">Contrate nossos Serviços</a>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center bg-light">
+        <div class="row">
+          <div class="col-sm-12 mt-5 d-flex justify-content-center col-md-12">
+            <img src="./img/Dodo_Airlines.webp" width="495px" alt="" srcset="">
+          </div>
+          <div class="col-sm-12 d-flex mt-5 mb-5">
+              <div class="h5 text-center w-50 m-auto">
+                  A Dodo Airlines é uma empresa de aviação que oferece voos para diversos destinos no mundo. Nossa missão é proporcionar aos nossos clientes uma experiência de viagem segura, confortável e divertida. Temos uma frota moderna e bem equipada, com aeronaves de última geração e uma equipe de profissionais qualificados e atenciosos. Além disso, oferecemos preços competitivos e diversas opções de pacotes e serviços para atender às suas necessidades. Seja qual for o seu motivo para viajar, a Dodo Airlines é a sua melhor escolha. Entre em contato conosco e faça a sua reserva hoje mesmo!
+              </div>
+          </div>
+        </div>
+    </div>
+    
+    <div class="d-flex justify-content-center align-items-center flex-column m-5">
+        <div class="card h-75 w-75">
+            <form class="form-control">
+                <fieldset>
+                <!-- Form Name -->
+                <legend>Fale Conosco</legend>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="control-label" for="Nome Completo">Nome Completo</label>  
+                  <div class="">
+                  <input id="Nome Completo" name="Nome Completo" type="text" placeholder="Digite aqui seu nome" class="form-control input-md">
+                    
+                  </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class="control-label" for="E-mail">E-mail</label>  
+                  <div class="">
+                  <input id="E-mail" name="E-mail" type="text" placeholder="E-mail" class="form-control input-md">
+                    
+                  </div>
+                </div>
+                
+                <!-- Text input-->
+                <div class="form-group">
+                  <label class=" control-label" for="celular">Celular</label>  
+                  <div class="">
+                  <input id="celular" name="celular" type="text" placeholder="Celular" class="form-control input-md">
+                    
+                  </div>
+                </div>
+                
+                <!-- Textarea -->
+                <div class="form-group">
+                  <label class=" control-label" for="Mensagem">Mensagem</label>
+                  <div class="">                     
+                    <textarea class="form-control" id="Mensagem" name="Mensagem"></textarea>
+                  </div>
+                </div>
+                <br>
+                <!-- Button -->
+                <div class="form-group">
+                  <div class="d-flex justify-content-center">
+                    <button id="Enviar" name="Enviar" class="btn btn-primary rounded-pill">  Enviar  </button>
+                  </div>
+                </div>
+                </fieldset>
+                </form>
+                
+        </div>
+    </div>
+</body>
+<footer class="navbar navbar-expand-lg shadow-lg text-light navbar-light d-flex justify-content-center navbarAjuste">
+    <p>Desenvolvido por Brenins</p>
+</footer>
+</html>
